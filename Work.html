@@ -135,10 +135,16 @@ hr {
     border-top: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (orientation: landscape) {
     .passage {
-        font-size: 1.2em; /* 放大字體，您可以根據需求調整數值 */
-        line-height: 1.5;  /* 增加行高以提升行動端閱讀舒適度 */
+        max-width: 90%; /* 增加內容寬度 */
+        column-count: 1; /* 確保內容不會因寬度過大而自動分欄（若有設定） */
+    }
+    
+    /* 調整背景圖以適應橫向 */
+    body {
+        background-size: cover;
+        background-attachment: fixed;
     }
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">UIBar.destroy();</script><tw-passagedata pid="1" name="Home" tags="no-score" position="2300,100" size="100,100">!!!&lt;ruby&gt;到&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;dào&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;食&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shí&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;品&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;pǐn&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;工&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;gōng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;廠&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;chǎng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;上&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;shàng&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;ruby&gt;班&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;bān&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;
 &lt;div class=&quot;con&quot;&gt;
